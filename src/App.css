@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #f8faff;
+}
+
+/* Hero Section with Bottom Wave */
+.hero-wrapper {
+  background: linear-gradient(180deg, #0a2558 0%, #1e4ea1 100%);
+  color: white;
+  padding: 100px 0 160px;
+  position: relative;
+  clip-path: ellipse(150% 100% at 50% 0%); /* The exact UI curve */
+}
+
+/* Floating Stats Bar */
+.stats-floating-row {
+  margin-top: -80px;
+  position: relative;
+  z-index: 10;
+}
+
+.stat-card {
+  background: white;
+  border: none;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.07);
+  transition: transform 0.3s ease;
+}
+
+/* Custom Gold Button */
+.btn-rudronil-gold {
+  background-color: #fcd167;
+  color: #000;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 24px;
+}
+
+/* Service Card Design */
+.service-card-exact {
+  border: 1px solid #eef2f6;
+  border-radius: 12px;
+  padding: 30px 20px;
+  background: #fff;
+  height: 100%;
+  transition: all 0.3s ease;
+}
+
+.service-card-exact:hover {
+  box-shadow: 0 10px 25px rgba(10, 37, 88, 0.1);
+  transform: translateY(-5px);
+}
+
+/* Why Choose Us Banner */
+.why-choose-banner {
+  background: linear-gradient(90deg, #0a2558 0%, #1a4da1 100%);
+  color: white;
+  border-radius: 0; 
+  padding: 40px 0;
+  margin: 60px 0;
+  background-image: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.05) 0%, transparent 50%);
+}
