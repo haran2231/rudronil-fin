@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Globe, Shield, ChartBar, ArrowRight, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Globe, Shield, ChartBar, Linkedin, Twitter } from 'lucide-react';
 import logo from '../images/logo.png'; // Ensure this path is correct
 
 const quotes = [
