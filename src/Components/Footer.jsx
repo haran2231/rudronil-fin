@@ -117,7 +117,7 @@ export default function Footer() {
             </ul>
           </div> */}
 
-          <div className="flex items-center">
+          <div className="md:flex items-center hidden ">
           <Link to="/">
             <img
               src={logo}
