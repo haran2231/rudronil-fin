@@ -26,7 +26,7 @@ export default function BlogPage() {
       setLoading(true);
       setError("");
 
-const url = `https://api.allorigins.win/raw?url=https://gnews.io/api/v4/top-headlines?category=${selectedCategory}&lang=en&max=9&apikey=adb7d472597b31c46914ec9123e324b2`;
+const url = `https://corsproxy.io/?https://gnews.io/api/v4/top-headlines?category=${selectedCategory}&lang=en&max=9&apikey=adb7d472597b31c46914ec9123e324b2`;
 
       const response = await fetch(url);
       const data = await response.json();
