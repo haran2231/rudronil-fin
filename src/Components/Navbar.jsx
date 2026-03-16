@@ -46,9 +46,9 @@ export default function Navbar() {
             Investment Solutions
           </li> */}
 
-          <li className="hover:text-blue-600 cursor-pointer">
+          {/* <li className="hover:text-blue-600 cursor-pointer">
             <Link to="/blogs">Blogs</Link>
-          </li>
+          </li> */}
 
           <li className="hover:text-blue-600 cursor-pointer">
             <Link to="/contactpage">Contact</Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
             <li><Link to="/about">About</Link></li>
             <li><Link to="/services">Services</Link></li>
             {/* <li>Investment Solutions</li> */}
-            <li><Link to="/blogs">Blogs</Link></li>
+            {/* <li><Link to="/blogs">Blogs</Link></li> */}
             <li> <Link to="/contactpage">Contact</Link></li>
 
             <button className="bg-yellow-400 text-black py-2 rounded-lg font-semibold">
