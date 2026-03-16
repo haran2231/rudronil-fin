@@ -32,6 +32,8 @@ const url = `https://corsproxy.io/?https://gnews.io/api/v4/top-headlines?categor
       const data = await response.json();
 
       if (!response.ok) {
+        console.log(url);
+        
         throw new Error(data.errors?.[0] || "Failed to fetch news");
       }
 
