@@ -1,9 +1,19 @@
-import Comingsoon from "../Components/ComingSoon";
+import Hero from "../Components/Hero";
+import ServicesSection from "../Components/ServicesSection";
+import Stats from "../Components/Stats";
+import WhyChooseUsSection from "../Components/WhyChooseUsSection";
+
+
+
 
 function Home() {
   return (
     <div>
-      <Comingsoon></Comingsoon>
+      <Hero></Hero>
+      <Stats></Stats>
+      <ServicesSection></ServicesSection>
+      <WhyChooseUsSection></WhyChooseUsSection>
+      
     </div>
   );
 }
